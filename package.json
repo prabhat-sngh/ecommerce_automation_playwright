@@ -1,0 +1,14 @@
+{
+  "name": "wtf-gyms-qa-automation",
+  "version": "1.0.0",
+  "description": "QA Automation suite for WTF Gyms practical assessment — Playwright + TypeScript",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

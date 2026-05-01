@@ -1,0 +1,30 @@
+[
+  {
+    "scenario": "valid_user",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectedResult": "success",
+    "expectedURL": "/inventory.html"
+  },
+  {
+    "scenario": "locked_out_user",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expectedResult": "error",
+    "expectedMessage": "Sorry, this user has been locked out."
+  },
+  {
+    "scenario": "invalid_password",
+    "username": "standard_user",
+    "password": "wrongpassword123",
+    "expectedResult": "error",
+    "expectedMessage": "Username and password do not match any user in this service"
+  },
+  {
+    "scenario": "problem_user",
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "expectedResult": "success",
+    "expectedURL": "/inventory.html"
+  }
+]
