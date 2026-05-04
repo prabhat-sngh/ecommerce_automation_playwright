@@ -1,4 +1,4 @@
-# WTF Gyms QA Assessment — Automation Suite
+# Ecommerce — Automation Suite
 ## Playwright + TypeScript | Page Object Model
 
 ---
